@@ -1,40 +1,40 @@
 .contenedor-testimonio {
-  width: 1170px;
-  height: 368px;
-  margin: 10px 10px 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffffff; 
-  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  width: 1170px;/*ancho*/
+  height: 368px; /*alto*/
+  margin: 10px 10px 50px; /*margen*/
+  display: flex; /**/
+  align-items: center; /**/
+  justify-content: center;/**/
+  background-color: #ffffff; /**/
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%); /*sombra para el contenedor*/
 }
 
 .imagen-testimonio {
-  height: 100%;
-  width: auto;
+  height: 100%; /*altura del 100% del contenedor*/
+  width: auto; /*ancho automático*/
 }
 
-.contenedor-texto-testimonio {
-  text-align: center;
-  padding: 40px;
-  font-family: Lato, sans-serif;
-  font-weight: 400;
-  line-height: 1.5rem;
+.contenedor-texto-testimonio { /*este es el rectángulo contenedor del texto*/
+  text-align: center; /*alinear el texto al centro*/
+  padding: 40px; /**/
+  font-family: Lato, sans-serif;/*tipo de letra con respaldo*/
+  font-weight: 400; /*para que el texto sea un poco más delgado que el del título*/
+  line-height: 1.5rem; /*esto da separación entre las lineas, para que no estén tan pegadas verticalmente*/
 }
 
 .nombre-testimonio {
-  font-size: 1.3rem;
+  font-size: 1.3rem; /*tamaño de la letra relativa al elemento raíz, en este caso 18px declarados en el app.css para body y html*/
 }
 
 .cargo-testimonio {
   font-size: 1.3rem;
-  margin-top: 15px;
-  padding-bottom: 30px;
+  margin-top: 15px; /*margen superior de 15px para separarlos*/
+  padding-bottom: 30px;/*padding en la parte inferior de 30 pixeles*/
 }
 
 .texto-testimonio {
   font-size: 1.1rem;
-  text-align: justify;
+  text-align: justify;/*se justifica el texto*/
 }
 
 

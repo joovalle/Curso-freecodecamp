@@ -1,5 +1,7 @@
 import './App.css';
-import Testimonio from './componentes/Testimonio';
+import Testimonio from './componentes/Testimonio'; //importamos el componente Testimonio
+
+//se dice que el componente principal llamado App, está renderizando o mostrando el componente Testimonio, notar que, el componente Testimonio está dentro del componente App
 
 function App() {
   return (

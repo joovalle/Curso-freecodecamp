@@ -1,34 +1,34 @@
-* {
+* { /*lo hacemos para eliminar cualquier personalización que trajera por defecto el browser*/
   margin: 0;
   padding: 0;
 }
 
 html, 
 body {
-  font-size: 18px;
-  background-color: #f5f6f7;
+  font-size: 18px; /*tamaño de letra para el html y body*/
+  background-color: #f5f6f7;/*color de fondo*/
 }
 
-h1 {
-  max-width: 940px;
-  font-size: 2.5em;
-  font-family: Lato, sans-serif;
-  font-weight: 700;
-  line-height: 1.1;
-  margin: 40px 0;
+h1 { /*lo hacemos así porque solo tenemos un elemento h1*/
+  max-width: 940px; /*ancho máximo*/
+  font-size: 2.5em; /*2.5 es un factor relativo al tamaño de su contenedorpara no dejarlo fijo*/
+  font-family: Lato, sans-serif; /*letra tipo "lato", se deja el respaldo de "sans-serif" por si no estuviera el "lato"*/
+  font-weight: 700;/*grueso de la letra, no alcanza a ser bould (negrita)*/
+  line-height: 1.1; /*alto de las letras*/
+  margin: 40px 0;/*40 es el margen superior e inferior y el 0 es el derecho e izquierdo*/
 }
 
 .App {
-  min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  min-height: 100vh;/*la altura mínima de la aplicación será 100 view por height, permite que se adapta a la altura del navegador, al 100% como mínimo verticalemente*/
+  display: flex; /*se relaciona con flexbox*/
+  flex-wrap: wrap;/*significa que si un elemento toma todo el ancho del contenedor, todos los demás elementos van a ubicarse en la siguiente linea o debajo de él*/
+  align-items: center;/*se van a alinear en el centro*/
+  justify-content: center; /*se van a centrar horizontalmente*/
+  text-align: center;/*el texto también se alinea al centro*/
 }
 
 .contenedor-principal {
-  min-height: 600px;
+  min-height: 600px;/*se usa altura MÍNIMA para que si hubieran más testimonios esta se pudiera adaptar*/
   display: flex;
   flex-wrap: wrap;
   align-items: center;
